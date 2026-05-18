@@ -121,6 +121,8 @@ int main(void)
     // // CCR1 corresponds to Channel 1
     // For direction register access rather than HAL macro
     // AI asked if I wanted to learning how to create my own custom macro for "SET_MOTOR_SPEED(x)"
+
+    // this is a test comment for git
     
     __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 0);
     HAL_Delay(1000);
